@@ -49,22 +49,74 @@
         </div>
         <div class="case-stack">
           <article class="case-file">
-            <span class="tag">A</span>
-            <h3>"Everyone is getting suspended tomorrow. Screenshot from the office."</h3>
-            <p>No original post, no date, and a strong push to share fast.</p>
-            <strong>Field check: Source + date missing.</strong>
+            <div class="case-meta">
+              <span class="tag">A</span>
+              <span class="case-status risk">Trust least</span>
+            </div>
+            <div class="screenshot-frame screenshot-chat">
+              <div class="screenshot-top">
+                <span>Messages</span>
+                <span>9:14 PM</span>
+              </div>
+              <div class="message-row incoming">
+                <span class="message-name">unknown</span>
+                <p>Everyone is getting suspended tomorrow. Screenshot from the office. Send this fast.</p>
+              </div>
+              <div class="crop-warning">No sender, date, or original source</div>
+            </div>
+            <div class="case-analysis">
+              <h3>"Everyone is getting suspended tomorrow."</h3>
+              <p>No original post, no date, and a strong push to share fast.</p>
+              <strong>Field check: Source + date missing.</strong>
+            </div>
           </article>
           <article class="case-file">
-            <span class="tag">B</span>
-            <h3>"School update posted today. Here is the account and link."</h3>
-            <p>Includes the original source, date, and a path to verify it.</p>
-            <strong>Field check: Best evidence, but still verify the account.</strong>
+            <div class="case-meta">
+              <span class="tag">B</span>
+              <span class="case-status check">Strongest evidence</span>
+            </div>
+            <div class="screenshot-frame screenshot-post">
+              <div class="screenshot-top">
+                <span>School account</span>
+                <span>Today, 3:42 PM</span>
+              </div>
+              <div class="post-author">
+                <span class="post-avatar"></span>
+                <div>
+                  <strong>Riverview Middle School</strong>
+                  <small>@riverviewms · official update</small>
+                </div>
+              </div>
+              <p class="post-body">Phone policy update: classes continue as normal tomorrow. Full note linked below.</p>
+              <div class="source-link">riverviewms.edu/updates</div>
+            </div>
+            <div class="case-analysis">
+              <h3>"School update posted today."</h3>
+              <p>Includes the original source, date, and a path to verify it.</p>
+              <strong>Field check: Best evidence, but still verify the account.</strong>
+            </div>
           </article>
           <article class="case-file">
-            <span class="tag">C</span>
-            <h3>"My friend says the principal sent this, but the top is cut off."</h3>
-            <p>Could be real, but the screenshot hides who sent it and when.</p>
-            <strong>Field check: Cropped context.</strong>
+            <div class="case-meta">
+              <span class="tag">C</span>
+              <span class="case-status caution">Needs context</span>
+            </div>
+            <div class="screenshot-frame screenshot-crop">
+              <div class="missing-strip">top of screenshot cut off</div>
+              <div class="screenshot-top cropped">
+                <span>...</span>
+                <span>time hidden</span>
+              </div>
+              <div class="message-row outgoing">
+                <p>My friend says the principal sent this, but the top is cut off.</p>
+              </div>
+              <div class="crop-warning">Sender and date are hidden</div>
+            </div>
+            <div class="case-analysis">
+              <h3>"My friend says the principal sent this."</h3>
+              <p>Could be real, but the screenshot hides who sent it and when.</p>
+              <strong>Field check: Cropped context.</strong>
+            </div>
           </article>
         </div>
       </section>
