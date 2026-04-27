@@ -615,8 +615,20 @@ h3 {
   line-height: 1.45;
 }
 
+.mission-card small {
+  display: block;
+  margin-top: 16px;
+  color: var(--green-2);
+  font-weight: 850;
+  line-height: 1.35;
+}
+
 .mission-card.active p {
   color: #d9e6df;
+}
+
+.mission-card.active small {
+  color: #f3d18c;
 }
 
 .sample-section,
